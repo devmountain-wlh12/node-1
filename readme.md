@@ -5,6 +5,14 @@
 *Node* is a _runtime environment_ which allows us to run Javascript logic outside of the browser. It utilizes Google's V8 engine to run javascript.
 * *Note:* One of Node's primary use cases is creating servers.
 
+To run a file using Node, type `node filename.js` in the terminal.
+
+## Nodemon
+If you don't want to restart node over and over, run your file with nodemon:
+```bash
+nodemon filename.js
+```
+
 ## What is NPM?
 
 *NPM* stands for _Node Package Manager_. It is a place for developers to share their code with the Javascript development community.
